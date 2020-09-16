@@ -24,15 +24,17 @@ function johnLennonFacts (facts) {
   return exclArr;
 }
 
-function iLoveTheBeats(num) {
+function iLoveTheBeatles(num) {
   var arr= [];
   var beatlesStr = "I love the Beatles!";
-  
+  var count = 15 - num;
+
   var i = 0;
   do {
     i++;
     arr.push(beatlesStr);
-  } while (i < 15);
+
+  } while (i < count);
 
   return arr;
 }
