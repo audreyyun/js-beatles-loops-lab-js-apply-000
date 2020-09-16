@@ -34,9 +34,5 @@ function iLoveTheBeats(num) {
     arr.push(beatlesStr);
   } while (i < 15);
 
-  
-  
-  do {
-    i++;
-    return arr
+  return arr;
 }
