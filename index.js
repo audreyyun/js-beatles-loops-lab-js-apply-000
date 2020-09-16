@@ -33,6 +33,10 @@ function iLoveTheBeats(num) {
     i++;
     arr.push(beatlesStr);
   } while (i < 15);
+
+  
   
   do {
+    i++;
+    return arr
 }
